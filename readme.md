@@ -1,0 +1,1 @@
+详见[统计博客园的所有文章总字数](https://www.cnblogs.com/focksor/p/cnblogsWordCount.html) 
