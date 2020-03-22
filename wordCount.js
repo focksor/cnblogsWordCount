@@ -32,7 +32,7 @@ function refreshSum() {
     console.log(countSum)
 
     if($('#wordCount').text().length === 0) {
-        $("#p_b_follow").before("<br/>博客总字数：" + "<a id='wordCount'>" + countSum + "</a>");
+        $("#p_b_follow").before("<br/>博客总字数：" + "<a id='wordCount' href='https://gitee.com/focksor/cnblogsWordCount' target='_blank'>" + countSum + "</a>");
     } else {
         $('#wordCount').text(countSum)
     }
