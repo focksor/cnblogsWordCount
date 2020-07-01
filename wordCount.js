@@ -26,11 +26,6 @@ function refreshSum() {
         return x + y;
     });
 
-    if (postCountList.length !== postList.length) {
-        countSum = `统计中...(${countSum})`;
-    }
-    console.log(countSum)
-
     if($('#wordCount').text().length === 0) {
         $("#p_b_follow").before("<br/>博客总字数：" + "<a id='wordCount' href='https://gitee.com/focksor/cnblogsWordCount' target='_blank'>" + countSum + "</a>");
     } else {
